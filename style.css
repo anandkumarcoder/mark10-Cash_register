@@ -1,0 +1,164 @@
+ @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet');
+
+
+:root{
+    --primary-color: #6bb154;
+
+}
+
+
+/* *{
+    padding: 0;
+    margin: 0;
+    display: block;
+    box-sizing: border-box;
+}  */
+
+/* .cashReceivedArea {
+    display: none; */
+    
+
+
+.changeReturn {
+    display: none; }
+
+
+body{
+    
+   /* margin: auto; */
+   background-image: url("https://images.unsplash.com/photo-1459257831348-f0cdd359235f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80");
+   background-repeat: no-repeat;
+   text-align: center;
+   
+
+}
+
+.section{
+
+  padding: 2rem;
+  margin: auto;
+  max-width: 500px;
+  border: 3px solid whitesmoke ;
+  /* text-align: center; */
+  
+}
+
+h2{
+    font-size: 2rem;
+    font-style: sans-serif ;
+}
+
+/* Bill Area */
+
+.billArea{
+    padding: 1rem;
+    margin: auto;
+    padding-top: 0.5 rem;
+    
+}
+
+h3{
+    text-align: left;
+    padding-left: 2.5rem;
+    
+}
+
+
+#billAmt{
+    display: block;
+    width: 80%;
+    padding: 0.5rem;
+    margin: auto;
+    box-shadow: 15px 13px 23px #aaaa;
+    border-radius: 0.5rem;
+    border-color: white;
+}
+
+
+button{
+    padding: 0.5rem 1rem;
+    margin-top : 1rem;
+    
+   cursor: pointer;
+   box-shadow: 15px 13px 23px #aaaa;
+   border-radius: 0.5rem;
+    border-color: white;
+
+}
+
+
+/* cash received area */
+
+.cashReceivedArea{
+    
+    padding: 1rem;
+    margin: auto;
+    padding-top: 0.5 rem;
+
+}
+
+#cashReceived{
+    display: block;
+    width: 80%;
+    padding: 0.5rem;
+    margin: auto;
+    box-shadow: 15px 13px 23px #aaaa;
+    border-radius: 0.5rem;
+    border-color: white;
+}
+/* return change */
+
+.changeReturn{
+    width: 85%;
+    padding: 1rem;
+    
+}
+
+/* table */
+
+#output{
+    padding-left: 2rem;
+
+}
+
+.noOfNotes{
+    padding: 0.5rem;
+    width: 20%;
+    box-shadow: 15px 13px 23px #aaaa;
+    border-radius: 0.5rem;
+    border-color: white;
+    font-weight: bold;
+
+}
+
+.amount{
+    padding: 0.5rem;
+    width: 20%;
+    box-shadow: 15px 13px 23px #aaaa;
+    border-radius: 0.5rem;
+    border-color: white;
+    font-weight: bold;
+
+
+}
+
+.noON{
+    padding: 0.5rem;
+    width: 20%;
+    box-shadow: 15px 13px 23px #aaaa;
+    border-radius: 0.5rem;
+    border-color: white;
+    font-weight: bold;
+
+}
+
+.note{
+    padding: 0.5rem;
+    width: 20%;
+    box-shadow: 15px 13px 23px #aaaa;
+    border-radius: 0.5rem;
+    border-color: white;
+    font-weight: bold;
+    
+
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cash Register</title>
+
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+
+<body>
+   <section class = "section">
+        <h2>Cash Register Manager</h2>
+        <div class="billArea">
+            <h3>Bill Amount</h3>
+            <input id="billAmt" type="number">
+            </input>
+            <button id="next-btn">Next</button>
+            
+        </div>
+
+        <div class="cashReceivedArea">
+            <h3>Cash Received</h3>
+            <input id="cashReceived" type="number" >
+            </input>
+            <button id="calculate-btn">Calculate</button>
+        </div>
+
+    
+    <p id="error-message"></p>
+    <div class="changeReturn">
+        <h3>Return Change</h3>
+        <div id="output">
+            <table>
+                <tbody>
+                    <tr>
+                        <th class="note">Notes</th>
+                        <td class="amount">2000</td>
+                        <td class="amount">500</td>
+                        <td class="amount">200</td>
+                        <td class="amount">100</td>
+                        <td class="amount">20</td>
+                        <td class="amount">10</td>
+                        <td class="amount">5</td>
+                        <td class="amount">1</td>
+                    </tr>
+
+                    <tr>
+                        <th class="noON">No of notes</th>
+                        <td class="noOfNotes"></td>
+                        <td class="noOfNotes"></td>
+                        <td class="noOfNotes"></td>
+                        <td class="noOfNotes"></td>
+                        <td class="noOfNotes"></td>
+                        <td class="noOfNotes"></td>
+                        <td class="noOfNotes"></td>
+                        <td class="noOfNotes"></td>
+
+                    </tr>
+                </tbody>
+            </table>
+
+        </div>
+
+    </div>
+
+    
+</section>
+<script src="./App.js"></script>
+</body>
+
+
+
+</html>

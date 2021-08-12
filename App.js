@@ -9,6 +9,7 @@ const message = document.querySelector("#error-message")
 
 const noOfNotes = document.querySelectorAll(".noOfNotes")
  const outputTable = document.querySelector(".changeReturn")
+ const outputDiv = document.querySelector("#output")
 
 
 const arrayNoteAmt = [2000, 500, 200, 100, 20, 10, 5, 1]
@@ -21,6 +22,8 @@ function hideMessage() {
 
 function showMessage(msg) {
     message.style.display = "block",
+    message.style.fontWeight = "bold"
+    message.style.color = "red"
         message.innerText = msg;
 };
 
@@ -50,18 +53,27 @@ if (!Number.isInteger(cashReceivedValue)){
     showMessage("Enter the valid amount")
 }
 else if (billAmtValue > cashReceivedValue) {
- showMessage("Cash is less than bill, please enter right amount");
+ showMessage("Cash  received is less than bill amount, please enter right amount");
     }
 else if ( cashReceivedValue > billAmtValue) {
     const amountToBeReturned = cashReceivedValue - billAmtValue ;
     calculateChange(amountToBeReturned);
+    outputDiv.innerHTML = "Please return Rs" + " " +(amountToBeReturned) + " " + "to the customer";
+    outputDiv.style.fontWeight ="bold"
+
     outputTable.style.display = "block";
+    // outputTable.innerHTML = "Please return Rs" + " " +(amountToBeReturned) + " " + "to the customer";
+    
+    
+
 }  
  else {
      showMessage("Please enter valid amount")
  } 
 
 })
+
+// console.log(outputDiv)
     
 // // calculating number of notes to be returned
 

@@ -20,13 +20,7 @@
 
 
 
-    .cashReceivedArea{
-        display: none;
-        padding: 1rem;
-        margin: auto;
-        padding-top: 0.5 rem;
     
-    }
 
    
 
@@ -100,6 +94,14 @@ button{
 
 /* cash received area */
 
+.cashReceivedArea{
+    display: none;
+    padding: 1rem;
+    margin: auto;
+    padding-top: 0.5 rem;
+
+}
+
 
 
 #cashReceived{
@@ -116,17 +118,21 @@ button{
 .changeReturn{
     display: none;
     width: 85%;
-    padding: 1rem;
+    padding: 3rem;
     
+}
+
+.changeReturn h3{
+    padding-left: 1rem;
 }
 
 /* table */
 
 #output{
     padding-left: 2rem;
-   
 
 }
+
 
 .noOfNotes{
     padding: 0.5rem;

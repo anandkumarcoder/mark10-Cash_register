@@ -18,17 +18,15 @@
     display: none; */
     
 
-
+/* 
 .changeReturn {
-    display: none; }
+    display: none; } */
 
 
 body{
     
-   /* margin: auto; */
-   background-image: url("https://images.unsplash.com/photo-1459257831348-f0cdd359235f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80");
-   background-repeat: no-repeat;
-   text-align: center;
+   margin: auto;
+   background-color: #FAF9F9;
    
 
 }
@@ -38,8 +36,12 @@ body{
   padding: 2rem;
   margin: auto;
   max-width: 500px;
-  border: 3px solid whitesmoke ;
-  /* text-align: center; */
+  border: 3px solid  #C3DBE9;
+  text-align: center;
+  background-color: #C3DBE9;
+  box-shadow: 15px 13px 23px grey;
+ 
+  border-radius: 40px;
   
 }
 
@@ -53,7 +55,7 @@ h2{
 .billArea{
     padding: 1rem;
     margin: auto;
-    padding-top: 0.5 rem;
+    padding-top: 0.5rem;
     
 }
 
@@ -78,6 +80,7 @@ h3{
 button{
     padding: 0.5rem 1rem;
     margin-top : 1rem;
+    
     
    cursor: pointer;
    box-shadow: 15px 13px 23px #aaaa;
@@ -118,6 +121,7 @@ button{
 
 #output{
     padding-left: 2rem;
+   
 
 }
 
@@ -128,7 +132,7 @@ button{
     border-radius: 0.5rem;
     border-color: white;
     font-weight: bold;
-
+    background-color:#FAF9F9;
 }
 
 .amount{
@@ -138,6 +142,7 @@ button{
     border-radius: 0.5rem;
     border-color: white;
     font-weight: bold;
+    background-color: #FAF9F9;
 
 
 }
@@ -149,6 +154,7 @@ button{
     border-radius: 0.5rem;
     border-color: white;
     font-weight: bold;
+    background-color: #FAF9F9;
 
 }
 
@@ -159,6 +165,7 @@ button{
     border-radius: 0.5rem;
     border-color: white;
     font-weight: bold;
+    background-color: #FAF9F9;
     
 
 }

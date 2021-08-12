@@ -18,9 +18,7 @@
     display: none; */
     
 
-/* 
-.changeReturn {
-    display: none; } */
+
 
     .cashReceivedArea{
         display: none;
@@ -116,6 +114,7 @@ button{
 /* return change */
 
 .changeReturn{
+    display: none;
     width: 85%;
     padding: 1rem;
     

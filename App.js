@@ -8,7 +8,7 @@ const message = document.querySelector("#error-message")
 // calculateBTN.addEventListener("click", () => console.log(cashReceived.value));
 
 const noOfNotes = document.querySelectorAll(".noOfNotes")
- const output = document.querySelector("#output")
+ const outputTable = document.querySelector(".changeReturn")
 
 
 const arrayNoteAmt = [2000, 500, 200, 100, 20, 10, 5, 1]
@@ -55,6 +55,7 @@ else if (billAmtValue > cashReceivedValue) {
 else if ( cashReceivedValue > billAmtValue) {
     const amountToBeReturned = cashReceivedValue - billAmtValue ;
     calculateChange(amountToBeReturned);
+    outputTable.style.display = "block";
 }  
  else {
      showMessage("Please enter valid amount")

@@ -2,7 +2,7 @@ const billAmt = document.querySelector("#billAmt");
 const nextBTN = document.querySelector("#next-btn");
 // const bill = console.log(billAmt.value);
 
-const cashReceived = document.querySelector("#cashReceived");
+const cashReceivedDiv = document.querySelector(".cashReceivedArea");
 const calculateBTN = document.querySelector("#calculate-btn");
 const message = document.querySelector("#error-message")
 // calculateBTN.addEventListener("click", () => console.log(cashReceived.value));
@@ -31,7 +31,7 @@ nextBTN.addEventListener('click' , function (){
     hideMessage();
     if (Number(billAmt.value) > 0) {
         nextBTN.style.display = "none" ;
-        cashReceived.style.display = "block";
+        cashReceivedDiv.style.display = "block";
     }
     else{
         showMessage("Enter the valid amount")

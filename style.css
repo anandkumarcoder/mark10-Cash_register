@@ -22,6 +22,16 @@
 .changeReturn {
     display: none; } */
 
+    .cashReceivedArea{
+        display: none;
+        padding: 1rem;
+        margin: auto;
+        padding-top: 0.5 rem;
+    
+    }
+
+   
+
 
 body{
     
@@ -92,13 +102,7 @@ button{
 
 /* cash received area */
 
-.cashReceivedArea{
-    
-    padding: 1rem;
-    margin: auto;
-    padding-top: 0.5 rem;
 
-}
 
 #cashReceived{
     display: block;
